@@ -28,7 +28,9 @@ records it.
 
 No agent action is authorized by a credential the agent holds.
 
-## What it does
+## What the system implements
+
+Each row below is shown running in the walkthrough linked above.
 
 | Capability | Status |
 |---|---|
