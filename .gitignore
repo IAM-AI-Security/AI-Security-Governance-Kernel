@@ -1,0 +1,58 @@
+# This repository is documentation only.
+#
+# The implementation is private. These rules exist so that source code
+# cannot be added here by accident, rather than relying on care at the
+# moment of `git add`. Adding code to this repository should require a
+# deliberate `git add -f`, which is a decision someone has to make on
+# purpose rather than a mistake they can make in passing.
+
+# Source code, any language
+*.py
+*.js
+*.jsx
+*.ts
+*.tsx
+*.sh
+*.bash
+*.rb
+*.go
+*.java
+*.ps1
+
+# Infrastructure, policy and configuration as code
+*.tf
+*.tfvars
+*.tfstate
+*.tfstate.*
+*.yaml
+*.yml
+*.json
+*.cedar
+*.cedarschema.json
+Dockerfile
+docker-compose*
+
+# Secrets and environment
+*.env
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build output, caches and archives
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+build/
+dist/
+*.zip
+*.tar.gz
+*.pkl
+
+# Local noise
+.DS_Store
+*.bak
